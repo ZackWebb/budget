@@ -1,0 +1,13 @@
+[project]
+name = "budget"
+version = "0.1.0"
+description = "YNAB Budget Data Exporter for LLM Analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ynab>=1.9.0",
+    "python-dateutil>=2.8.0",
+]
+
+[project.scripts]
+budget = "main:main"
